@@ -1,0 +1,86 @@
+@import 'colors';
+
+.services{
+    padding: 3rem;
+    color: $first;
+    background-color: $second;
+    >h1{
+        color: white;
+        margin: 1%;
+        display: flex;
+        font: bolder 3rem $text2;
+        justify-content: center;
+    }
+    
+}
+.containr{
+    padding: 2rem;
+    >img{
+        border-radius: 5%;
+        height: 80vh;
+        width: 40%;
+    }
+}
+.services2{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    > article{
+      background-color: $first;
+        display: flex;
+        border-radius: 20px;
+        padding: 1rem;
+        margin: 0 1rem;
+        margin-top: -150px;
+        z-index: 1;
+        color: black;
+        > div{
+            margin-top: -90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+            >div{
+                width: 5rem;
+                height: 5rem;
+                background-color: black;
+                margin: 2rem 0;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 45px;
+                border-radius: 10px;
+                transition: all 0.3s;
+
+                &:hover{
+                    filter: invert(1);
+                }
+            }
+            >h1{
+                font: bolder 1.5rem $text1;
+            }
+            >p{
+                margin: 10% 0;
+                width: 60%;
+                text-align: center;
+            }
+            >h2{
+                text-transform: uppercase;
+                padding: 0.2rem;
+                font-weight: bold;
+                border-bottom: 1px black solid;
+                font-size: 15px;
+                &:hover{
+                    filter: invert(20%);
+                }
+            }
+        }
+    }
+
+}
