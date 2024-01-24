@@ -20,11 +20,9 @@ const App = () => {
       <Route path='/' element={<Home/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/services' element={<Services/>} />
-  
     </Routes>
     <Footer/>
    </Router>
   )
 }
-
 export default App;
